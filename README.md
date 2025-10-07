@@ -1,12 +1,55 @@
-# React + Vite
+# k27
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [GSAP](https://greensock.com/gsap/) (for animations)
+- [Tailwind CSS](https://tailwindcss.com/) (for styling)
+- [React Router](https://reactrouter.com/) (for routing)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Animated image transitions with GSAP
+- Responsive design using Tailwind CSS
+- Project and Agency sections
+- Video background support
+- Smooth navigation with React Router
+
+## 📦 Getting Started
+
+1. **Clone the repo:**
+   ```
+   git clone https://github.com/yourusername/k27.git
+   cd k27
+   ```
+2. **Install dependencies:**
+   ```
+   npm install
+   ```
+3. **Run locally:**
+   ```
+   npm run dev
+   ```
+
+## 🛠️ Build for Production
+
+```
+npm run build
+```
+
+## 🌐 Deployment
+
+This project is ready to deploy on [Vercel](https://vercel.com/).
+
+## 📁 Folder Structure
+
+- `src/pages/` — Main pages (Home, Projects, Agence)
+- `src/components/` — Reusable components (Navbar, Video, ProjectCard, etc.)
+- `public/fonts/` — Images and video assets
+
+---
+
+Made with ❤️ by [Your Name]
